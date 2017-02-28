@@ -30,8 +30,8 @@
     			    	        <span class="caret"></span>
     				        </a>
     				        <ul class="dropdown-menu" role="menu">
-                                <li><a href="/admin"><i class="fa fa-tachometer"></i> Find a Job</a></li>
-                                <li><a href="/profil "><i class="fa fa-tachometer"></i> Post a Job</a></li>
+                                <li><a href="/maintenance"><i class="fa fa-tachometer"></i> Find a Job</a></li>
+                                <li><a href="/maintenance "><i class="fa fa-tachometer"></i> Post a Job</a></li>
     	    	            </ul>
     		        	</li>
                 <li class=""><a href="#">Blog</a></li>
@@ -69,8 +69,8 @@
     			    	        <span class="caret"></span>
     				        </a>
     				        <ul class="dropdown-menu" role="menu">
-                                <li><a href="/admin"><i class="fa fa-sign-in"></i> sign in</a></li>
-                                <li><a href="/profil "><i class="fa fa-tachometer"></i> sign up</a></li>
+                                <li><a href="/connexion"><i class="fa fa-sign-in"></i> sign in</a></li>
+                                <li><a href="/inscription"><i class="fa fa-tachometer"></i> sign up</a></li>
     	    	            </ul>
     		        	</li>
        		        @endif
@@ -87,8 +87,8 @@
               <h2 class="bnr-sub-title">Starting a new journey!!</h2>
               <p class="bnr-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br>ex ea commodo consequat.</p>
               <div class="brn-btn">
-                <a href="#" class="btn btn-download">Sign in</a>
-                <a href="#" class="btn btn-more">Sign up</a>
+                <a href="/connexion" class="btn btn-download">Sign in</a>
+                <a href="/inscription" class="btn btn-more">Sign up</a>
               </div>
               <div class="overlay-detail">
                 <a href="#feature"><i class="fa fa-angle-down"></i></a>
@@ -412,7 +412,7 @@
                     </div>
                     <div class="col-md-12">
                       <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <textarea class="form-control" name="message" rows="7" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                             <div class="validation"></div>
                         </div>
                       <button type="submit" class="btn btn-primary btn-submit">SEND NOW</button>

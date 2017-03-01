@@ -26,6 +26,15 @@ Route::get('/inscription',function(){
 Route::get('/connexion',function(){
     return view('pages.auth.signin');
 });
+Route::get('/dashboard',function(){
+    return view('users.dashboard');
+});
+Route::get('/profil',function(){
+    return view('users.profil');
+});
+Route::get('/test',function(){
+    return view('users.test');
+});
 Route::get('/test1',function(){
-    return view('users.test1');
+    return view('test');
 });

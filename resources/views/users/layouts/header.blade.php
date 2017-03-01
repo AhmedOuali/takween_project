@@ -24,7 +24,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="pull-left">
-                                                <img src="/users/img/avatar2.png" class="img-circle" alt="User Image">
+                                                <img src="/users/img/avatar5.png" class="img-circle" alt="User Image">
                                             </div>
                                             <h4>Ikhlas Dassi
                                                 <small><i class="fa fa-clock-o"></i> 5 mins</small>
@@ -46,7 +46,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="pull-left">
-                                                <img src="/users/img/avatar2.png" class="img-circle" alt="User Image">
+                                                <img src="/users/img/avatar5.png" class="img-circle" alt="User Image">
                                             </div>
                                             <h4>Emna Khemakhem
                                                 <small><i class="fa fa-clock-o"></i> Aujourd'hui</small>
@@ -120,13 +120,13 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         @if (Auth::check())
                             @if (Auth::user()->title == "F")
-                            <img src="/users/img/avatar2.png" class="user-image" alt="User Image">
+                                <img src="/users/img/avatar2.png" class="user-image" alt="User Image">
                             @else 
-                           <img src="/users/img/avatar5.png" class="user-image" alt="User Image">
+                               <img src="/users/img/avatar5.png" class="user-image" alt="User Image">
                             @endif  
-                            <span class="hidden-xs">{{ Auth::user()->last_name }} {{ Auth::user()->first_name }} </span>
+                                <span class="hidden-xs">{{ Auth::user()->last_name }} {{ Auth::user()->first_name }} </span>
                         @else
-                            <img src="/users/img/avatar2.png" class="user-image" alt="User Image">
+                            <img src="/users/img/avatar5.png" class="user-image" alt="User Image">
                             
                             <span class="hidden-xs">lastname firstname </span>
                         @endif
@@ -135,29 +135,17 @@
                         <li class="user-header">
                             @if (Auth::check())
                                 @if (Auth::user()->title == "F")
-                                <img src="/users/img/avatar2.png" class="img-circle" alt="User Image"> @else
-                                <img src="/users/img/avatar5.png" class="img-circle" alt="User Image"> @endif
-                                <p>{{ Auth::user()->last_name }} {{ Auth::user()->first_name }} 
-                                </p>
+                                    <img src="/users/img/avatar2.png" class="img-circle" alt="User Image"> @else
+                                    <img src="/users/img/avatar5.png" class="img-circle" alt="User Image"> @endif
+                                    <p>{{ Auth::user()->last_name }} {{ Auth::user()->first_name }} 
+                                    </p>
                             @else
-                                <img src="/users/img/avatar2.png" class="img-circle" alt="User Image">
+                                <img src="/users/img/avatar5.png" class="img-circle" alt="User Image">
                                 <p>last_name firt_name 
                                 </p>
                             @endif
-                                
+                        </li>
                         
-                        </li>
-                        <li class="user-body">
-                            <div class="col-xs-4 text-center">
-                                <a href="/admin/cours">Cours</a>
-                            </div>
-                            <div class="col-xs-4 text-center">
-                                <a href="/admin/quizz/">Quizz</a>
-                            </div>
-                            <div class="col-xs-4 text-center">
-                                <a href="/admin/utilisateurs/">Utilisateurs</a>
-                            </div>
-                        </li>
                         <li class="user-footer">
                             <div class="row" style="padding-left:40px;">
                                 <div class="col-md-4">

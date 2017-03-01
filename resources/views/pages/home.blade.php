@@ -373,14 +373,14 @@
         <div class="row">
           <div class="col-md-12 text-center white">
             <h2 class="service-title pad-bt15">Keep in touch with us</h2>
-            <p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>
-            <hr class="bottom-line white-bg">
+                <hr class="bottom-line white-bg">
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="loction-info white">
-                  <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>A99 Adam Street<br>Texas, TX 555072</p>
-                  <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@baker.com</p>
-                  <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+41 5787 2323</p>
+                  <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Rue Ahmed Aloulou<br>Imm. Esia 9eme etage Apt. 1
+Sfax</p>
+                  <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@takween.online</p>
+                  <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+216 74 400 205</p>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.776318446766!2d10.749986497541537!3d34.736032194258016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDQ0JzEwLjUiTiAxMMKwNDUnMDYuMyJF!5e0!3m2!1sfr!2sfr!4v1488188255446"  frameborder="0" style="border:0" allowfullscreen></iframe> 
               </div>
           </div>

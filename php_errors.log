@@ -1,2 +1,4 @@
 [27-Feb-2017 12:38:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/routes/web.php on line 22
 [27-Feb-2017 12:38:30 UTC] PHP Fatal error:  Call to undefined function veiw() in /home/ubuntu/workspace/routes/web.php on line 21
+[28-Feb-2017 22:30:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/storage/framework/views/d20323846a61be4fcf6efc3441f84367c3dc79e4.php on line 193
+[28-Feb-2017 23:31:20 UTC] PHP Fatal error:  Call to undefined method Illuminate\Auth\SessionGuard::checked() in /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php on line 294

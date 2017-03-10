@@ -17,7 +17,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">tak<span class="logo-dec">ween</span></a>
+              
+             <!--TODO Top bar avec logo-->
+              <a class="navbar-brand" href="/">
+          	<img alt="Brand" src="/img/tlogow.png">
+              </a>
+             <!----> 
+             
+             <!--TODO Top bar le mot TAKWEEN-->
+              <!--<a class="navbar-brand" href="#">tak<span class="logo-dec">ween</span></a>-->
+              <!---->
+              
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
@@ -83,6 +93,7 @@
         <div class="container">
           <div class="row">
             <div class="banner-info text-center wow fadeIn delay-05s">
+              <br/><br/>
               <h1 class="bnr-title">We are at ba<span>ker</span></h1>
               <h2 class="bnr-sub-title">Starting a new journey!!</h2>
               <p class="bnr-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br>ex ea commodo consequat.</p>

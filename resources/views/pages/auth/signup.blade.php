@@ -1,7 +1,9 @@
-@extends('pages.auth.layouts.app')
+@extends('pages.auth.layouts.app_up')
 @section('title', 'register')
+@section('in')
+	<li><a href='/connexion'>sign in</a></li>
+@endsection
 @section('content')
-
 <div class="container">
 	    
     	<div class="row">

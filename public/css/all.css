@@ -36,13 +36,17 @@
     background-color: rgba(255, 255, 255, 0.1);
   }
   .skin-blue .main-header .navbar .dropdown-menu li a {
-    color: #fff;
+    color: #367fa9;
   }
   .skin-blue .main-header .navbar .dropdown-menu li a:hover {
-    background: #367fa9;
+    background: #fff;
+  }
+  .pendrow{
+    padding-left:17px; /*DONE La marge gauche des boutons user*/
   }
 }
 .skin-blue .main-header .logo {
+   /*TODO changer le couleur du carré ADMIN*/
   background-color: #367fa9;
   color: #ffffff;
   border-bottom: 0 solid transparent;
@@ -294,6 +298,9 @@
 @media (min-width: 768px) {
   .skin-blue-light.sidebar-mini.sidebar-collapse .sidebar-menu > li > .treeview-menu {
     border-left: 1px solid #d2d6de;
+  }
+  .pendrow{
+    padding-left:40px; /*Done*/
   }
 }
 .skin-blue-light .main-footer {

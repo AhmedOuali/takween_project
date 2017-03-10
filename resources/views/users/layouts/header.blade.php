@@ -147,17 +147,22 @@
                         </li>
                         
                         <li class="user-footer">
-                            <div class="row" style="padding-left:40px;">
-                                <div class="col-md-4">
+                            <div class="row pendrow" > 
+                                <!--style="padding-left:40px;"-->
+                                <div class="col-xs-4">
                                     <a href="#" data-toggle="tooltip" title="Profil">
                                         <i class="fa fa-user" aria-hidden="true"></i>
                                     </a>
                                 </div>
-                                <div class="col-md-4">
-                                    <a href="/" data-toggle="tooltip" title="Accueil"><i class="fa fa-home" aria-hidden="true"></i></a>
+                                <div class="col-xs-4">
+                                    <a href="/" data-toggle="tooltip" title="Accueil">
+                                        <i class="fa fa-home" aria-hidden="true"></i>
+                                    </a>
                                 </div>
-                                <div class="col-md-4">
-                                    <a href="/logout" data-toggle="tooltip" title="Déconnexion"><i class="fa fa-power-off" aria-hidden="true"></i></a>
+                                <div class="col-xs-4">
+                                    <a href="/logout" data-toggle="tooltip" title="Déconnexion">
+                                        <i class="fa fa-power-off" aria-hidden="true"></i>
+                                    </a>
                                 </div>
                             </div>
                         </li>

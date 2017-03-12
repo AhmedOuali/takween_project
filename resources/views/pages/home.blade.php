@@ -18,7 +18,7 @@
                 <span class="icon-bar"></span>
               </button>
               
-             <!--TODO Top bar avec logo-->
+             
               <a class="navbar-brand" href="/">
           	<img alt="Brand" src="/img/tlogow.png">
               </a>
@@ -60,10 +60,20 @@
     				        <ul class="dropdown-menu" role="menu">
     				            <!--à effacer si on n'a pas mis en place la fonction admin-->
                         @if(Auth::user()->admin)
-                                <li><a href="/admin"><i class="fa fa-tachometer"></i> Dashboard</a></li>
-                                <li><a href="/profil "><i class="fa fa-tachometer"></i> Profil</a></li>
-    		    	            <li><a href="/logout"><i class="fa fa-btn fa-sign-out"></i> logout</a></li>
-    	    	            </ul>
+                          <li><a href="/admin"><i class="fa fa-tachometer"></i> Dashboard</a></li>
+                          <li><a href="/profil "><i class="fa fa-tachometer"></i> Profil</a></li>
+    		    	            
+    		    	            <!--Logout-->
+    		    	            <li>
+      		    	            <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                                     document.getElementById('logout-form').submit();"><i class="fa fa-btn fa-sign-out"></i> logout</a>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                              {{ csrf_field() }}
+                            </form>
+                          </li>
+                          <!---->
+                          
+    	    	        </ul>
     		        	</li>
     		        	@else 
     		        	        <!---->
@@ -77,12 +87,12 @@
     		            <li class="dropdown">
     				        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">sign(in/out) 
     			    	        <span class="caret"></span>
-    				        </a>
-    				        <ul class="dropdown-menu" role="menu">
-                                <li><a href="/connexion"><i class="fa fa-sign-in"></i> sign in</a></li>
-                                <li><a href="/inscription"><i class="fa fa-tachometer"></i> sign up</a></li>
-    	    	            </ul>
-    		        	</li>
+        				    </a>
+        				        <ul class="dropdown-menu" role="menu">
+                              <li><a href="{{ route('login') }}"><i class="fa fa-sign-in"></i> sign in</a></li>
+                              <li><a href="{{ route('register') }}"><i class="fa fa-tachometer"></i> sign up</a></li>
+        	    	        </ul>
+    		        	  </li>
        		        @endif
               </ul>
             </div>
@@ -266,6 +276,8 @@
     </section>
     <!---->
     <!---->
+    <div class="raw">
+    <div class="col-xs-12"></div>
     <section id="testimonial" class="wow fadeInUp delay-05s">
       <div class="bg-testicolor">
         <div class="container section-padding">
@@ -306,6 +318,8 @@
         </div>
       </div>
     </section>
+    </div>
+    </div>
     <!---->
     <section id="blog" class="section-padding wow fadeInUp delay-05s">
       <div class="container">
@@ -403,6 +417,7 @@ Sfax</p>
                 <div id="sendmessage">Your message has been sent. Thank you!</div>
                 <div id="errormessage"></div>
                 <form action="" method="post" role="form" class="contactForm">
+                  {{ csrf_field() }}
                     <div class="col-md-6 padding-right-zero">
                         <div class="form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />

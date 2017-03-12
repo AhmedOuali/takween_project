@@ -1,6 +1,6 @@
 <header class="main-header">
     <a href="/admin" class="logo">
-        <span class="logo-lg"><b>Admin</b></span>
+        <span class="logo-lg"><b>User</b></span>
     </a>
     <nav class="navbar navbar-static-top" role="navigation">
         <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">

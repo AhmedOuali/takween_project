@@ -2,7 +2,7 @@
 @section('title', 'Accueil')
 @section('content')
      <body>
-
+    @include('layouts.reg-after')
     <div class="loader"></div>
     <div id="myDiv">
     <!--HEADER-->
@@ -79,7 +79,8 @@
     		        	        <!---->
     		        	        
     		        	         <li><a href="/profil "><i class="fa fa-tachometer"></i> Profil</a></li>
-    		        	         <li><a href="/logout"><i class="fa fa-btn fa-sign-out"></i> logout</a></li>
+    		        	         <li><a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                                     document.getElementById('logout-form').submit();"><i class="fa fa-btn fa-sign-out"></i> logout</a></li>
     		    	         </ul>
     		        	</li>
     		        	@endif  <!--à effacer si on n'a pas mis en place le privilège admin-->
@@ -98,18 +99,21 @@
             </div>
           </div>
         </nav>
+        
+        
         </header>
         <div class="wrapper">
         <div class="container">
           <div class="row">
+            
             <div class="banner-info text-center wow fadeIn delay-05s">
               <br/><br/>
               <h1 class="bnr-title">We are at ba<span>ker</span></h1>
               <h2 class="bnr-sub-title">Starting a new journey!!</h2>
               <p class="bnr-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br>ex ea commodo consequat.</p>
               <div class="brn-btn">
-                <a href="/connexion" class="btn btn-download">Sign in</a>
-                <a href="/inscription" class="btn btn-more">Sign up</a>
+                <a href="{{ route('login') }}" class="btn btn-download">Sign in</a>
+                <a href="{{ route('register') }}" class="btn btn-more">Sign up</a>
               </div>
               <div class="overlay-detail">
                 <a href="#feature"><i class="fa fa-angle-down"></i></a>
@@ -444,13 +448,9 @@ Sfax</p>
                       <button type="submit" class="btn btn-primary btn-submit">SEND NOW</button>
                     </div>
                 </form>
-              
             </div>
-            
-
           </div>
           <div class="col-md-12 col-sm-12 col-xs-12">
-            
              </div>
         </div>
       </div>
@@ -460,6 +460,4 @@ Sfax</p>
     
     <!---->
   </div>
-    
-    
 @endsection

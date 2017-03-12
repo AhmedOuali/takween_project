@@ -32,11 +32,12 @@
 		@yield('content')
 	</div>
     
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/jquery.bxslider.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/wow.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/custom.js"></script>
+    <script src="/js/reg-after-modal.js"></script>
 	</body>
 </html>

@@ -24,12 +24,12 @@
                                         @if (Auth::check())
                                             @if (Auth::user())
                                                 <div class="pull-left info">
-                                                    <p style="color:#428bca;"><i class="fa fa-circle text-success"></i>&nbsp; en ligne</p>
+                                                    <p style="color:#428bca;"><i class="fa fa-circle text-success"></i>&nbsp; online</p>
                                                 </div>
                                             @endif
                                         @else
                                             <div class="pull-left info">
-                                                    <p style="color:#428bca;"><i class="fa fa-circle text-success"></i>&nbsp; en ligne</p>
+                                                    <p style="color:#428bca;"><i class="fa fa-circle text-success"></i>&nbsp; online</p>
                                                 </div>
                                         @endif
                                             
@@ -52,8 +52,8 @@
                             <div class="col-lg-8">
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li role="presentation" class="active"><a href="#details" aria-controls="details" role="tab" data-toggle="tab">Profil</a></li>
-                                    <li role="edit"><a href="#edit" aria-controls="edit" role="tab" data-toggle="tab">Modifier</a></li>
-                                    <li role="historic" id="hist"><a href="#historic" aria-controls="historic" role="tab" data-toggle="tab">Historique</a></li>
+                                    <li role="edit"><a href="#edit" aria-controls="edit" role="tab" data-toggle="tab">edit</a></li>
+                                    <li role="historic" id="hist"><a href="#historic" aria-controls="historic" role="tab" data-toggle="tab">history</a></li>
                                 </ul>
                                 <div class="tab-content ">
                                     <div role="tabpanel" class="tab-pane active" id="details">
@@ -94,7 +94,7 @@
                                                         </th>
                                                     </tr>
                                                     <tr>   
-                                                        <th> <i class="fa fa-map-marker" aria-hidden="true"></i> Adresse  </th>
+                                                        <th> <i class="fa fa-map-marker" aria-hidden="true"></i> Adresse first line</th>
                                                         <th> 
                                                            @if (Auth::check())
                                                                <label for="address_first_line">{{ $user->address_first_line  }}</label>
@@ -104,7 +104,7 @@
                                                         </th>
                                                     </tr>
                                                     <tr>   
-                                                        <th><i class="fa fa-map-marker" aria-hidden="true"></i> Complément d'Adresse  </th>
+                                                        <th><i class="fa fa-map-marker" aria-hidden="true"></i> Adress second line  </th>
                                                         <th> 
                                                         @if (Auth::check())
                                                            <label for="address_second_line">{{ $user->address_second_line  }}</label>
@@ -114,7 +114,7 @@
                                                         </th>
                                                     </tr>
                                                     <tr>   
-                                                        <th><i class="fa fa-check-circle" aria-hidden="true"></i> Code postal </th>
+                                                        <th><i class="fa fa-check-circle" aria-hidden="true"></i> Postal Code</th>
                                                         <th> 
                                                         @if (Auth::check())
                                                            <label for="zip_code">{{ $user->zip_code }}</label>
@@ -124,7 +124,7 @@
                                                         </th>
                                                     </tr>
                                                     <tr>   
-                                                        <th><i class="fa fa-globe" aria-hidden="true"></i> Pays </th>
+                                                        <th><i class="fa fa-globe" aria-hidden="true"></i> Country </th>
                                                         <th> 
                                                         @if (Auth::check())
                                                            <label for="country">{{ $user->country }}</label>
@@ -134,7 +134,7 @@
                                                         </th>
                                                     </tr>
                                                     <tr>   
-                                                        <th><i class="fa fa-circle" aria-hidden="true"></i> Ville </th>
+                                                        <th><i class="fa fa-circle" aria-hidden="true"></i> City </th>
                                                         <th>
                                                         @if (Auth::check())     
                                                             <label for="city">{{ $user->city }}</label>

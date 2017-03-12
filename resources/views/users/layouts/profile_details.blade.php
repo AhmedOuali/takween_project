@@ -31,19 +31,8 @@
             
         </div>
     </div>
-    <div class="form-group{{ $errors->has('last_name') ? ' has-error' : '' }}">
-    <label class="col-md-4 control-label">Nom</label>
-        <div class="col-md-6">
-            <input type="text" class="form-control" name="last_name" value="lastname" required> 
-            @if ($errors->has('last_name'))
-            <span class="help-block">
-                <strong>{{ $errors->first('last_name') }}</strong>
-            </span> 
-            @endif
-        </div>
-    </div>
     <div class="form-group{{ $errors->has('first_name') ? ' has-error' : '' }}">
-        <label class="col-md-4 control-label">Prénom</label>
+        <label class="col-md-4 control-label">First name</label>
         <div class="col-md-6">
             <input type="text" class="form-control" name="first_name" value="firstname" required> 
             @if ($errors->has('first_name'))
@@ -53,8 +42,20 @@
             @endif
         </div>
     </div>
+    <div class="form-group{{ $errors->has('last_name') ? ' has-error' : '' }}">
+    <label class="col-md-4 control-label">Second name</label>
+        <div class="col-md-6">
+            <input type="text" class="form-control" name="last_name" value="lastname" required> 
+            @if ($errors->has('last_name'))
+            <span class="help-block">
+                <strong>{{ $errors->first('last_name') }}</strong>
+            </span> 
+            @endif
+        </div>
+    </div>
+    
     <div class="form-group{{ $errors->has('birth_date') ? ' has-error' : '' }}">
-        <label class="col-md-4 control-label">Date de naissance </label>
+        <label class="col-md-4 control-label">Birth date </label>
         <div class="col-md-6">
             <input type="date" class="form-control" name="birth_date" value="YY/MM/YYYY" > 
             @if ($errors->has('birth_date'))
@@ -65,7 +66,7 @@
         </div>
     </div>
     <div class="form-group{{ $errors->has('phone') ? ' has-error' : '' }}">
-        <label class="col-md-4 control-label">Téléphone</label>
+        <label class="col-md-4 control-label">Phone</label>
         <div class="col-md-6">
             <input type="tel" class="form-control" name="phone" value="00000000" pattern='[0-9]{8}' > 
             @if ($errors->has('phone'))
@@ -79,7 +80,7 @@
         <label class="col-md-4 control-label"> Adresse </label>
         <div class="col-md-6">
             <input type="text" class="form-control" name="address_first_line" value="adress_first_line" > 
-            @if ($errors->has('address_first_line'))
+            @if ($errors->has('Address first line'))
             <span class="help-block">
                 <strong>{{ $errors->first('address_first_line') }}</strong>
             </span> 
@@ -87,7 +88,7 @@
         </div>
     </div>
     <div class="form-group{{ $errors->has('address_second_line') ? ' has-error' : '' }}">
-        <label class="col-md-4 control-label"> Complément d'adresse </label>
+        <label class="col-md-4 control-label"> Address Second line </label>
         <div class="col-md-6">
             <input type="text" class="form-control" name="address_second_line" value="adress_second_line"> 
             @if ($errors->has('address_second_line'))
@@ -98,7 +99,7 @@
         </div>
     </div>
     <div class="form-group{{ $errors->has('zip_code') ? ' has-error' : '' }}">
-        <label class="col-md-4 control-label"> Code postal </label>
+        <label class="col-md-4 control-label"> Postal code </label>
         <div class="col-md-6">
             <input type="tel" class="form-control" name="zip_code" value="0000" pattern="[0-9]{4}" > 
             @if ($errors->has('zip_code'))
@@ -109,7 +110,7 @@
         </div>
     </div>
     <div class="form-group{{ $errors->has('country') ? ' has-error' : '' }}">
-        <label class="col-md-4 control-label"> Pays </label>
+        <label class="col-md-4 control-label"> Country </label>
         <div class="col-md-6">
             <input type="text" class="form-control" name="country" value="Tunisia" > 
             @if ($errors->has('country'))
@@ -120,7 +121,7 @@
         </div>
     </div>
     <div class="form-group{{ $errors->has('city') ? ' has-error' : '' }}">
-        <label class="col-md-4 control-label"> Ville </label>
+        <label class="col-md-4 control-label"> City </label>
         <div class="col-md-6">
             <input type="text" class="form-control" name="city" value="Sfax" > 
             @if ($errors->has('city'))
@@ -132,7 +133,7 @@
     </div>
     <div class="form-group">
         <div class="col-md-12 ">
-            <button type="submit" class="btn btn-blue pull-right"> Modifier </button>
+            <button type="submit" class="btn btn-blue pull-right"> Update </button>
         </div>
     </div>
 </form>

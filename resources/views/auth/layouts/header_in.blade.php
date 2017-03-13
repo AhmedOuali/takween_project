@@ -17,7 +17,7 @@
           
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/">Home</a></li>
-            @yield('up')
+            <li><a href="{{ route('register') }}">sign up</a></li>
             
           </ul>
         </div><!--/.nav-collapse -->

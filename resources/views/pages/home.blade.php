@@ -86,7 +86,7 @@
     		        	@endif  <!--à effacer si on n'a pas mis en place le privilège admin-->
     		        @else 
     		            <li class="dropdown">
-    				        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">sign(in/out) 
+    				        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">sign(in/up) 
     			    	        <span class="caret"></span>
         				    </a>
         				        <ul class="dropdown-menu" role="menu">

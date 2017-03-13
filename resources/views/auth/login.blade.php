@@ -1,8 +1,5 @@
 @extends('auth.layouts.app_in')
-@section('title', 'register')
-@section('up')
-	<li><a href="{{ route('register') }}">sign up</a></li>
-@endsection
+@section('title', 'login')
 @section('content')
 
 <div class="container">

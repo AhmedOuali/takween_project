@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700" rel='stylesheet' type='text/css'>
-	<link rel="shortcut icon" href="/img/tlogo.png" />
+	<link rel="shortcut icon" href="/img/intlogo.png" />
 	
 	<link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
 	 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300|Raleway:300,400,900,700italic,700,300,600">
@@ -22,6 +22,9 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Bootstrap Form Helpers -->
+    <link href="css/bootstrap-form-helpers.min.css" rel="stylesheet" media="screen">
+    
      <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
 	<!--<link href="/css/all.css" rel="stylesheet">-->
@@ -38,6 +41,9 @@
     <script src="/js/wow.js"></script>
     <script src="/js/jquery.bxslider.min.js"></script>
     <script src="/js/custom.js"></script>
+    <script src="js/bootstrap-formhelpers.min.js"></script>
     <script src="/js/reg-after-modal.js"></script>
+    <!-- Bootstrap Form Helpers -->
+    
 	</body>
 </html>

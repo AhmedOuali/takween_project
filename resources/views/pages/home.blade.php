@@ -2,7 +2,8 @@
 @section('title', 'Accueil')
 @section('content')
      <body>
-    @include('layouts.reg-after')
+    @include('layouts.reg-after-modal')
+    @include('layouts.readmore-modals')
     <div class="loader"></div>
     <div id="myDiv">
     <!--HEADER-->
@@ -32,7 +33,7 @@
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#main-header">Home</a></li>
-                <li class=""><a href="#feature">About</a></li>
+                <li class=""><a href="#service">About</a></li>
                 <!--<li class=""><a href="#">Find a Job</a></li>-->
                 <!--<li class=""><a href="#service">Services</a></li>-->
                 <li class="dropdown">
@@ -108,9 +109,9 @@
             
             <div class="banner-info text-center wow fadeIn delay-05s">
               <br/><br/>
-              <h1 class="bnr-title">We are at ba<span>ker</span></h1>
-              <h2 class="bnr-sub-title">Starting a new journey!!</h2>
-              <p class="bnr-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br>ex ea commodo consequat.</p>
+              <h1 class="bnr-title">We<span>youth</span></h1>
+              <h2 class="bnr-sub-title">Takween</h2>
+              <!--<p class="bnr-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br>ex ea commodo consequat.</p>-->
               <div class="brn-btn">
                 <a href="{{ route('login') }}" class="btn btn-download">Sign in</a>
                 <a href="{{ route('register') }}" class="btn btn-more">Sign up</a>
@@ -126,48 +127,7 @@
     </div>
     <!--/ HEADER-->
     <!---->
-    <section id="feature" class="section-padding wow fadeIn delay-05s">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="wrap-item text-center">
-              <div class="item-img">
-                <img src="img/ser01.png">
-              </div>
-              <h3 class="pad-bt15">Creative Concept</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="wrap-item text-center">
-              <div class="item-img">
-                <img src="img/ser02.png">
-              </div>
-              <h3 class="pad-bt15">Amazing Design</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="wrap-item text-center">
-              <div class="item-img">
-                <img src="img/ser03.png">
-              </div>
-              <h3 class="pad-bt15">Cost effective</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="wrap-item text-center">
-              <div class="item-img">
-                <img src="img/ser04.png">
-              </div>
-              <h3 class="pad-bt15">Secure</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    
     <!---->
     <!---->
     <section id="service" class="section-padding wow fadeInUp delay-05s">
@@ -175,35 +135,37 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2 class="service-title pad-bt15">What We Do?</h2>
-            <p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>
+            <!--<p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>-->
             <hr class="bottom-line">
           </div>
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="service-item">
-              <h3><span>D</span>esign And Developement</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <a>learn more...</a>
+              <h3><span>I</span>nformation session </h3>
+              <p>As we are trying to reach out to more youth that can benefit from our project, our team participated on February 28, 2017, at an event called «Journées Découvertes» organized by </p>
+              <a id="cread1">learn more...</a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="service-item">
-              <h3><span>W</span>ebsite Maintenance</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <a>learn more...</a>
+              <h3><span>P</span>ress conference</h3>
+              <p>The project kicked off on November 1, 2016, but our first public appearance was not until November 30, 2016, in the inaugurational press conference. The goal of the conference was  </p>
+              <a id="cread2">learn more...</a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="service-item">
-              <h3><span>S</span>eo Optimization</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <a>learn more...</a>
+              <h3><span>P</span>romotional booth at ISSAT</h3>
+              
+              <p>Our field coordinator Nour Jabeur organized a promotional booth on February 2, 2017, at the Higher Institute of Applied Sciences and Technology in Gabes,</p>
+              <a id="cread3">learn more...</a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="service-item">
-              <h3><span>D</span>igital Marketing</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <a>Learn more...</a>
+              <h3><span>T</span>raining Camp</h3>
+              
+              <p>This five-day intensive training camp took place in Sousse from December 19-24 2016. The camp brought together 60 gender balanced participants from Sfax and Gabes equally.</p>
+              <a id="cread4">Learn more...</a>
             </div>
           </div>
         </div>
@@ -217,52 +179,52 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h2 class="service-title pad-bt15">Our Recent Works</h2>
-            <p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h2 class="service-title pad-bt15">Our services</h2>
+            <!--<p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>-->
             <hr class="bottom-line">
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
             <figure>
-              <img src="img/port01.jpg" class="img-responsive">
+              <img src="img/services1.png" class="img-responsive">
               <figcaption>
-                  <h2>Project For Everyone</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+                  <h2>Career Counseling</h2>
+                  <p>This service that can help you find those courses or careers where you can really excel and be extra-ordinary performers.. Whether you are looking for online career counseling before, during, or after your undergraduate studies, we offer you this service in a very simple manner.</p>
               </figcaption>
             </figure>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
             <figure>
-              <img src="img/port02.jpg" class="img-responsive">
+              <img src="img/services2.png" class="img-responsive">
               <figcaption>
-                  <h2>Project For Everyone</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+                  <h2>Forum</h2>
+                  <p>As the terms designates, our forum is a open room for all subscribers to share their thoughts, ask questions, raise debates, or share opportunities. This helpful tool helps you meet new people and widen your network, which in turn will help you catch more opportunities.</p>
               </figcaption>
             </figure>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
             <figure>
-              <img src="img/port03.jpg" class="img-responsive">
+              <img src="img/services3.png" class="img-responsive">
               <figcaption>
-                  <h2>Project For Everyone</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+                  <h2>Job Matching</h2>
+                  <p>this online tool enable the subscribers to upload their profiles and apply for jobs online. Our partners share regularly the openings they have within their institutions in order to start the recruitment process online. </p>
               </figcaption>
             </figure>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
             <figure>
-              <img src="img/port04.jpg" class="img-responsive">
+              <img src="img/services4.png" class="img-responsive">
               <figcaption>
-                  <h2>Project For Everyone</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+                  <h2>Opportunities</h2>
+                  <p>Besides to jobs, you might be interested in other opportunities such as volunteering, exchange programs, fellowships, and internships. This small corner of the platform collects both the local and national different opportunities available for you. </p>
               </figcaption>
             </figure>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
             <figure>
-              <img src="img/port05.jpg" class="img-responsive">
+              <img src="img/services5.png" class="img-responsive">
               <figcaption>
-                  <h2>Project For Everyone</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+                  <h2>Webinar</h2>
+                  <p>Takween project gives you the opportunity to learn from home. A webinar is a seminar conducted over the web. The virtuality of a webinar does not take away the interactive aspect of learning as you have the ability to give, receive and discuss ideas and  information with the speaker as well as the rest of the audience.</p>
               </figcaption>
             </figure>
           </div>
@@ -325,71 +287,113 @@
     </div>
     </div>
     <!---->
-    <section id="blog" class="section-padding wow fadeInUp delay-05s">
+    <!--<section id="blog" class="section-padding wow fadeInUp delay-05s">-->
+    <!--  <div class="container">-->
+    <!--    <div class="row">-->
+    <!--      <div class="col-md-12 text-center">-->
+    <!--        <h2 class="service-title pad-bt15">Latest from our blog</h2>-->
+    <!--        <p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>-->
+    <!--        <hr class="bottom-line">-->
+    <!--      </div>-->
+    <!--      <div class="col-md-4 col-sm-6 col-xs-12">-->
+    <!--        <div class="blog-sec">-->
+    <!--          <div class="blog-img">-->
+    <!--            <a href="">-->
+    <!--              <img src="img/blog01.jpg" class="img-responsive">-->
+    <!--            </a>-->
+    <!--          </div>-->
+    <!--          <div class="blog-info">-->
+    <!--            <h2>This is Lorem ipsum heading.</h2>-->
+    <!--            <div class="blog-comment">-->
+    <!--                <p>Posted In: <span>Legal Advice</span></p>-->
+    <!--                <p>-->
+    <!--                  <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>-->
+    <!--                  <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>-->
+    <!--            </div>-->
+    <!--            <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>-->
+    <!--            <a href="" class="read-more">Read more →</a>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--      <div class="col-md-4 col-sm-6 col-xs-12">-->
+    <!--        <div class="blog-sec">-->
+    <!--          <div class="blog-img">-->
+    <!--            <a href="">-->
+    <!--              <img src="img/blog02.jpg" class="img-responsive">-->
+    <!--            </a>-->
+    <!--          </div>-->
+    <!--          <div class="blog-info">-->
+    <!--            <h2>This is Lorem ipsum heading.</h2>-->
+    <!--            <div class="blog-comment">-->
+    <!--                <p>Posted In: <span>Legal Advice</span></p>-->
+    <!--                <p>-->
+    <!--                  <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>-->
+    <!--                  <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>-->
+    <!--            </div>-->
+    <!--            <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>-->
+    <!--            <a href="" class="read-more">Read more →</a>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--      <div class="col-md-4 col-sm-6 col-xs-12">-->
+    <!--        <div class="blog-sec">-->
+    <!--          <div class="blog-img">-->
+    <!--            <a href="">-->
+    <!--              <img src="img/blog03.jpg" class="img-responsive">-->
+    <!--            </a>-->
+    <!--          </div>-->
+    <!--          <div class="blog-info">-->
+    <!--            <h2>This is Lorem ipsum heading.</h2>-->
+    <!--            <div class="blog-comment">-->
+    <!--                <p>Posted In: <span>Legal Advice</span></p>-->
+    <!--                <p>-->
+    <!--                  <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>-->
+    <!--                  <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>-->
+    <!--            </div>-->
+    <!--            <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>-->
+    <!--            <a href="" class="read-more">Read more →</a>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--</section>-->
+    <!---->
+    <section id="feature" class="section-padding wow fadeIn delay-05s">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center">
-            <h2 class="service-title pad-bt15">Latest from our blog</h2>
-            <p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>
-            <hr class="bottom-line">
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="blog-sec">
-              <div class="blog-img">
-                <a href="">
-                  <img src="img/blog01.jpg" class="img-responsive">
-                </a>
+          <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-12">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                <img src="img/partenaire1.png" width="150px">
               </div>
-              <div class="blog-info">
-                <h2>This is Lorem ipsum heading.</h2>
-                <div class="blog-comment">
-                    <p>Posted In: <span>Legal Advice</span></p>
-                    <p>
-                      <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
-                      <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
-                </div>
-                <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>
-                <a href="" class="read-more">Read more →</a>
+             </div>
+          </div>
+          <div class="col-md-2 col-sm-6 col-xs-12">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                <img src="img/partenaire2.png" width="150px">
+              </div>
+             </div>
+          </div>
+          <div class="col-md-2 col-sm-6 col-xs-12">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                <img src="img/partenaire3.png" width="150px">
+              </div>
+             </div>
+          </div>
+          <div class="col-md-2 col-sm-6 col-xs-12">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                <img src="img/partenaire4.png" width="150px">
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="blog-sec">
-              <div class="blog-img">
-                <a href="">
-                  <img src="img/blog02.jpg" class="img-responsive">
-                </a>
-              </div>
-              <div class="blog-info">
-                <h2>This is Lorem ipsum heading.</h2>
-                <div class="blog-comment">
-                    <p>Posted In: <span>Legal Advice</span></p>
-                    <p>
-                      <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
-                      <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
-                </div>
-                <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>
-                <a href="" class="read-more">Read more →</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="blog-sec">
-              <div class="blog-img">
-                <a href="">
-                  <img src="img/blog03.jpg" class="img-responsive">
-                </a>
-              </div>
-              <div class="blog-info">
-                <h2>This is Lorem ipsum heading.</h2>
-                <div class="blog-comment">
-                    <p>Posted In: <span>Legal Advice</span></p>
-                    <p>
-                      <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
-                      <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
-                </div>
-                <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>
-                <a href="" class="read-more">Read more →</a>
+          <div class="col-md-2 col-sm-6 col-xs-12">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                <img src="img/partenaire5.png" width="150px">
               </div>
             </div>
           </div>

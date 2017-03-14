@@ -17,7 +17,7 @@
         <!---------------l'accée à ce block de code ne se fait que lorsque --------------->
         <!---------------l'utulisateur est connecté et il n'a pas terminé le register----->
         <!-------------------------------------------------------------------------------->
-        <div class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal fade" id="regmodal" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">

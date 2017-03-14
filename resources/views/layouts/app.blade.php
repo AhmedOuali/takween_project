@@ -42,7 +42,7 @@
     <script src="/js/jquery.bxslider.min.js"></script>
     <script src="/js/custom.js"></script>
     <script src="js/bootstrap-formhelpers.min.js"></script>
-    <script src="/js/reg-after-modal.js"></script>
+    <script src="/js/home-modals.js"></script>
     <!-- Bootstrap Form Helpers -->
     
 	</body>

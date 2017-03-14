@@ -18,7 +18,6 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/">Home</a></li>
             <li><a href="{{ route('login') }}">sign in</a></li>
-            
           </ul>
         </div><!--/.nav-collapse -->
       </div>

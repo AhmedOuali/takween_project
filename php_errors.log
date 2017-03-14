@@ -5,3 +5,10 @@
 [13-Mar-2017 10:52:34 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/storage/framework/views/b40327c725a5f7a5c6fa41039938840ce4843676.php on line 5
 [13-Mar-2017 10:53:10 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/storage/framework/views/b40327c725a5f7a5c6fa41039938840ce4843676.php on line 5
 [13-Mar-2017 10:54:38 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/ubuntu/workspace/storage/framework/views/b40327c725a5f7a5c6fa41039938840ce4843676.php on line 107
+[14-Mar-2017 16:43:20 UTC] PHP Fatal error:  Class 'routes' not found in /home/ubuntu/workspace/routes/web.php on line 41
+[14-Mar-2017 16:43:47 UTC] PHP Fatal error:  Class 'routes' not found in /home/ubuntu/workspace/routes/web.php on line 41
+[14-Mar-2017 16:43:50 UTC] PHP Fatal error:  Class 'routes' not found in /home/ubuntu/workspace/routes/web.php on line 41
+[14-Mar-2017 16:43:55 UTC] PHP Fatal error:  Class 'routes' not found in /home/ubuntu/workspace/routes/web.php on line 41
+[14-Mar-2017 16:44:30 UTC] PHP Fatal error:  Class 'Routes' not found in /home/ubuntu/workspace/routes/web.php on line 41
+[14-Mar-2017 16:44:36 UTC] PHP Fatal error:  Class 'Routes' not found in /home/ubuntu/workspace/routes/web.php on line 41
+[14-Mar-2017 18:14:04 UTC] PHP Fatal error:  Class 'App\Providers\Schema' not found in /home/ubuntu/workspace/app/Providers/AppServiceProvider.php on line 16

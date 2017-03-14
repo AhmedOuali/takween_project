@@ -39,6 +39,11 @@ Route::get('/test1',function(){
     return view('auth.register');
 });
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');

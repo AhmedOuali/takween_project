@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Prepacom | Error</title>
+    <title>Takween | Error</title>
     <link rel="shortcut icon" href="/img/intlogo.png" />
     <!-- Bootstrap Core CSS -->
     <link href="error/css/bootstrap.min.css" rel="stylesheet">

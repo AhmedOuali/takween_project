@@ -155,12 +155,12 @@
                                     </a>
                                 </div>
                                 <div class="col-xs-4">
-                                    <a href="/" data-toggle="tooltip" title="Accueil">
+                                    <a href="/" data-toggle="tooltip" title="Home">
                                         <i class="fa fa-home" aria-hidden="true"></i>
                                     </a>
                                 </div>
                                 <div class="col-xs-4">
-                                    <a href="/logout" data-toggle="tooltip" title="Déconnexion">
+                                    <a href="/logout" data-toggle="tooltip" title="logout">
                                         <i class="fa fa-power-off" aria-hidden="true"></i>
                                     </a>
                                 </div>

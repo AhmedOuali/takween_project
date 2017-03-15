@@ -3,7 +3,7 @@
  * ----------
  */
 .skin-blue .main-header .navbar {
-  background-color: #3c8dbc;
+  background-color: #be9e21;
 }
 .skin-blue .main-header .navbar .nav > li > a {
   color: #ffffff;
@@ -47,7 +47,7 @@
 }
 .skin-blue .main-header .logo {
    /*TODO changer le couleur du carré ADMIN*/
-  background-color: #367fa9;
+  background-color: #AC8C0E;
   color: #ffffff;
   border-bottom: 0 solid transparent;
 }
@@ -55,7 +55,7 @@
   background-color: #357ca5;
 }
 .skin-blue .main-header li.user-header {
-  background-color: #3c8dbc;
+  background-color: #be9e21;
 }
 .skin-blue .content-header {
   background: transparent;
@@ -13406,6 +13406,11 @@ body {
 }
 .btn-blue {
     background: #46b8da;
+    color: white;
+}
+
+.btn-jaune {
+    background: #be9e21;
     color: white;
 }
 

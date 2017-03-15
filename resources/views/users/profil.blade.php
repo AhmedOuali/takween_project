@@ -78,7 +78,7 @@
                                                         </th> 
                                                     </tr>
                                                     <tr>   
-                                                        <th><i class="fa fa-male" aria-hidden="true"></i> Genre  </th>
+                                                        <th><i class="fa fa-male" aria-hidden="true"></i> Gender  </th>
                                                         <th>
                                                             @if ( Auth::check()) 
                                                                 @if ( $user->title === "M" )

@@ -44,7 +44,7 @@
                             <div class="form-group{{ $errors->has('phone') ? ' has-error' : '' }}">
                                 <label class="col-md-4 control-label">Phone</label>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control bfh-phone" data-country="countries1" pattern=".{13,}" required>
+                                    <input type="text" class="form-control bfh-phone" name="phone" data-country="countries1" pattern=".{13,}" required>
                                     <!--<input type="tel" class="form-control" name="phone" pattern='[0-9]{8}' required> -->
                                     @if ($errors->has('phone'))
                                     <span class="help-block">

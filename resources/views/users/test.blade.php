@@ -71,7 +71,7 @@
                     <br><br><br><br>
                     
                     <!-----------------Bouton de declanchement du test---------------------->
-                    <button class="btn btn-primary " data-toggle="modal" data-target=".bd-example-modal-lg">Pass the test</button>
+                    <button class="btn btn-jaune " data-toggle="modal" data-target=".bd-example-modal-lg">Pass the test</button>
                     <!---------------------------------------------------------------------->
                     
                     <!---------------------------Le Test------------------------------->
